@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import java.net.URL?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.cell.*?> 
+<?import model.*?>
+<?import javafx.collections.*?> 
+
+
+<BorderPane prefHeight="300.0" prefWidth="200.0" xmlns:fx="http://javafx.com/fxml" fx:controller="view.NourritureAnimalController">
+    <fx:define>
+        <Integer fx:id="moins1" fx:value="-1" />
+    </fx:define>
+    <top>
+        
+    </top>
+    <left>
+        <ListView fx:id="listeNourriture" prefWidth="150" prefHeight="150.0" />
+    </left>
+    <center>    
+            
+        <GridPane hgap="20.0" vgap="50.0" visible="${listeNourriture.selectionModel.selectedIndex != moins1}" BorderPane.alignment="CENTER">
+            <VBox alignment="CENTER" >
+                
+                <VBox fx:id="vbox" alignment="CENTER" >
+                    <Label text="Points de vie"/>
+                    <Label fx:id="viePoint" visible="TRUE"/>
+                    <Label fx:id="Animal" text="Animal Associer:" />
+                    <Label fx:id="animalAssocie" prefWidth="250.0" />
+                    <Label text="Nourriture:"/>
+                    <Label fx:id="nourritureNom" prefWidth="250.0" />
+                    <Label fx:id="detailTexte" prefWidth="300.0" />
+                    <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0"/>
+                
+                </VBox>
+            
+            </VBox> 
+        </GridPane>
+    </center>
+    <bottom>
+            <HBox alignment="CENTER">
+                <Button text="Selectionner Nourriture" fx:id="CreeNourriture" onAction="#ClicSelect"/>
+            </HBox>
+   </bottom>
+   <stylesheets>
+        <URL value="@nourriture.css" />
+    </stylesheets>
+</BorderPane>

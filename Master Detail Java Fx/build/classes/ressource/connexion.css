@@ -1,0 +1,19 @@
+.root {
+     -fx-background-image: url("font.jpg");
+}
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FEFFFF;
+    -fx-font-family: "Yu Gothic Medium";
+}
+
+#grostext{
+     -fx-font-size: 35px;
+}
+
+.button {
+    -fx-border-radius: 3px;
+    -fx-padding: 5px 10px;
+    -fx-border-color: #00668C;
+}

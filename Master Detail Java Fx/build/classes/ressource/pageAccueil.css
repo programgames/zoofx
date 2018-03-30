@@ -1,0 +1,27 @@
+.root {
+     -fx-background-image: url("fontmenu1.jpg");
+     -fx-background-size: 485 355;
+}
+.button{
+-fx-border-radius: 3px;
+-fx-padding: 5px 10px;
+-fx-border: 1px solid #DDD;
+-fx-box-shadow:0px 0px 10px #4183C4;
+ -fx-font-family: "AR DELANEY";
+
+}
+#label{
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-family: "AR DELANEY";	
+}
+#titre{
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-family: "AR DELANEY";	
+}
+#namePseudo{
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-family: "AR DELANEY";	
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.Media?>
+<?import javafx.scene.media.MediaPlayer?>
+<?import javafx.scene.media.MediaView?>
+<?import java.net.URL?>
+
+<BorderPane prefHeight="300.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml" fx:controller="view.DetailAnimauxController">
+    <fx:define>
+        <Integer fx:id="moins1" fx:value="-1" />
+    </fx:define>
+    <left>
+        <ListView fx:id="listeDesAnimaux" items="${controller.leModele.lesAnimaux}" prefWidth="150.0" prefHeight="100.0" />          
+    </left>
+    <center>
+        <GridPane hgap="10.0" vgap="10.0" visible="${listeDesAnimaux.selectionModel.selectedIndex != moins1}" alignment="CENTER">
+                <VBox alignment="CENTER">
+                    <Label text="Nom Animal:" />
+                    <TextField fx:id="nom"/>
+                    <Label text="Nourriture:"/>
+                    <Label fx:id="detailTexte" />
+                    <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0"/>
+                    <Button fx:id="son" />   
+                </VBox>                  
+        </GridPane>
+    </center>
+    <bottom>
+            <HBox alignment="CENTER" spacing="50">
+                <Button text="Selectionner Personnage" fx:id="SelectPerso" onAction="#ClicSelect"/>
+                <Button text="AjouterPerso" fx:id="CreePerso" onAction="#ClicCreerperso"/>
+                <Button text="SupprimerPerso" fx:id="Supprimer" onAction="#ClicSuppPerso" />
+            </HBox>
+    </bottom>
+    <stylesheets>
+        <URL value="@detailAnimaux.css" />
+    </stylesheets>
+</BorderPane>

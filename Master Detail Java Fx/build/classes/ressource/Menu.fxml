@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<?import javafx.scene.image.*?>
+
+<BorderPane prefHeight="300.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml" fx:controller="view.MenuController">
+    <top>
+        <VBox alignment="TOP_CENTER">
+            <Label fx:id="label" text="Menu du Jeu" />
+            <HBox alignment="TOP_CENTER">
+                <ImageView fitHeight="30" fitWidth="50.0"> <image> <Image url="@coeur.jpg" /> </image> </ImageView>
+                <ImageView fitHeight="30" fitWidth="50.0"> <image> <Image url="@coeur.jpg" /> </image> </ImageView>
+                <ImageView fitHeight="30" fitWidth="50.0"> <image> <Image url="@coeur.jpg" /> </image> </ImageView>
+            </HBox>
+            <Label fx:id="vie" text="3" visible="TRUE"/>
+        </VBox> 
+    </top>
+    <center>
+        <HBox  alignment="CENTER" spacing="50">
+     
+            <VBox alignment="CENTER" spacing="50"> 
+                <Label fx:id="etape1" text="Etape 1:"/>         
+                <Button text="Sélectionner Personnage" fx:id="detail" onAction="#ClicDetailAnimaux" />
+            </VBox>
+            <VBox alignment="CENTER" spacing="50">
+                <Label fx:id="etape2" text="Etape 2:"/>
+                <Button text="Sélectionner Animal" fx:id="buttonNourrire" onAction="#clicNourritureAnimal"/>
+            </VBox>
+            <VBox alignment="CENTER" spacing="50">
+                <Label fx:id="etape3" text="Etape 3:"/>
+                <Button text="Jouer" fx:id="buttonJouer" onAction="#clicJouer"/>
+            </VBox>
+            <VBox alignment="CENTER" spacing="50">
+                <Label text=""/>
+                <Button text="Quitter le jeu" fx:id="fermeJeu" onAction="#ClicFermeJeu"/>
+            </VBox>
+        
+        </HBox>
+    </center>    
+    <stylesheets>
+        <URL value="@menu.css" />
+    </stylesheets>
+</BorderPane>

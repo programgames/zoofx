@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<BorderPane prefHeight="300.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml" fx:controller="view.ConnexionController">
+   
+    <center >
+            <VBox alignment="CENTER" fillWidth="70" >
+                <Label fx:id="grostext" text="Identification"></Label>
+                <Label text="Pseudo"></Label> 
+                <TextField fx:id="pseudo" onAction="#ClicPseudo" />
+                <Button text="Jouer" fx:id="btn" onAction="#ClicConnexion" onMouseClicked="#ClicFermerPage"> </Button>    
+            </VBox>  
+    </center>
+    <stylesheets>
+        <URL value="@connexion.css" />
+    </stylesheets>
+</BorderPane>

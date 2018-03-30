@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/persistance/persXML/XMLScore.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/FabriqueScore.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/menu.css</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/DetailAnimaux.fxml</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/test/Main.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/view/DetailAnimauxController.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/pageAccueil.css</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/Vie.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/PageAccueil.fxml</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/model/ModeleNourriture.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/Partie.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/Score.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/view/PageAccueilController.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/Manager.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/model/JeuTraitement.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/NourritureAnimal.fxml</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/Jouer.fxml</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/Connexion.fxml</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/chatjeu.png</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/IScore.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/view/ConnexionController.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/Animal.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/persistance/persXML/XMLDataManager.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/view/MenuController.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/view/JouerController.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/Nourriture.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/Menu.fxml</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/view/NourritureAnimalController.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/ScoreException.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/Joueur.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/DataManager.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/ressource/Jouer.css</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/utiles/NomAnimal.java</file>
+            <file>file:/C:/Users/julie/Desktop/Documents/java/master-detail-javafx/Master%20Detail%20Java%20Fx/src/model/ModeleAnimal.java</file>
+        </group>
+    </open-files>
+</project-private>

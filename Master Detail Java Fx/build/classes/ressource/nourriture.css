@@ -1,0 +1,42 @@
+.root {
+     -fx-background-color: #340197;
+
+}
+#entetejeu{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-font-family: "AR DELANEY";
+}
+#tableView{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-font-family: "AR DELANEY";
+    
+}
+#vbox{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FEFFFF;
+    -fx-font-family: "AR DELANEY";
+}
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FEFFFF;
+    -fx-font-family: "AR DELANEY";
+}
+.button {
+    fx-border-radius: 3px;
+-fx-padding: 5px 10px;
+ -fx-font-family: "AR DELANEY";
+ -fx-border-color: #00668C;
+}
+.ListView{
+    -fx-background-color:#340197;
+}
+#Animal{
+    -fx-font-size: 18px;
+    -fx-font-family: "AR DELANEY";
+}

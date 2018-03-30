@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import java.net.URL?>
+
+<BorderPane prefHeight="300.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml" fx:controller="view.PageAccueilController" >
+    <center>
+        <VBox alignment="TOP_CENTER">
+            <Label fx:id="label" text="Bienevenue"/>
+            <Label fx:id="namePseudo" visible="TRUE"/>
+            <Label fx:id="titre" text="Sur le jeu ZOOFX"/>
+            <Button fx:id="menu" text="Menu du jeu" onAction="#ClicMenu" onMouseClicked="#ClicFermerPage"/>
+            
+        </VBox>
+    </center>    
+    <top>
+        <HBox>
+            <ImageView fitHeight="30" fitWidth="50.0"> <image> <Image url="@coeur.jpg" /> </image> </ImageView>
+            <ImageView fitHeight="30" fitWidth="50.0"> <image> <Image url="@coeur.jpg" /> </image> </ImageView>
+            <ImageView fitHeight="30" fitWidth="50.0"> <image> <Image url="@coeur.jpg" /> </image> </ImageView>
+        </HBox>
+    </top>
+      
+    <stylesheets>
+        <URL value="@pageAccueil.css" />
+    </stylesheets>
+</BorderPane>

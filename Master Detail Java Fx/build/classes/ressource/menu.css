@@ -1,0 +1,41 @@
+.root {
+     -fx-background-image: url("fond1.jpg");
+     -fx-background-size: 760 415;
+    
+}
+
+#label{
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-family: "AR DELANEY";	
+}
+#vie{
+    -fx-font-size: 60px;
+    -fx-font-weight: bold;
+    -fx-font-family: "AR DELANEY";	
+}
+.button{
+    -fx-border-radius: 3px;
+    -fx-padding: 5px 10px;
+    -fx-font-family: "AR DELANEY";
+    -fx-border-color: #00668C;
+
+}
+#etape1{
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-family: "AR DELANEY";
+    -fx-text-fill: #ffffff;
+}
+#etape2{
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-family: "AR DELANEY";
+    -fx-text-fill: #E11B53;
+}
+#etape3{
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-family: "AR DELANEY";
+    -fx-text-fill:#000000;
+}
